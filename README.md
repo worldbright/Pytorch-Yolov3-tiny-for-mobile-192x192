@@ -16,7 +16,7 @@ Yolov3-tiny 모델구조를
 - 전 : input image: size 416 x 416, output grid: 13x13, 26x26, Layer: 13 Conv, 6 Maxpool, 1 Upsample
 - 후 : input image: size 192 x 192, output grid: 12x12, 12x12, Layer: 12 Conv, 4 Maxpool
 
-로, 속도향상을 위해 input image size를 1/4로 줄였고 이에 맞게 일부 레이어를 삭제 및 변형.
+로, 속도향상을 위해 input image size(h,w)를 1/2로 줄였고 이에 맞게 일부 레이어를 삭제 및 변형.
 
 <br>
 
