@@ -66,9 +66,9 @@ input image size에 맞춰 일부 레이어를 변형함에 따라, input tensor
 
 3. LOSS의 크기를 결정하는 no-obj scale을 100, 50, 10, 5, 2, ... 여러가지 방식으로 학습시켜 보았지만, 기존의 100이 가장 정확도가 높음.
 
-<img src="https://github.com/worldbright/Pytorch-Yolov3-tiny-for-mobile-192x192/blob/main/readme_assets/history_of_train.png">
+<p align="center"><img src="https://github.com/worldbright/Pytorch-Yolov3-tiny-for-mobile-192x192/blob/main/readme_assets/history_of_train.png"></p>
 
-gtx 1660을 혹사시키며 얻은 값진 "배움" 들
+<p align="center">gtx 1660을 혹사시키며 얻은 값진 "배움" 들</p>
 
 ### 결과
 
@@ -78,9 +78,9 @@ gtx 1660을 혹사시키며 얻은 값진 "배움" 들
 
 - 192x192기준 최대 정확도 93%
 
-Instagram의 #멍스타그램 사진 랜덤으로 테스트한 결과 (192x192)
-
 <img src="https://github.com/worldbright/Pytorch-Yolov3-tiny-for-mobile-192x192-/blob/main/test_with_random_instagram_dog.png">
+
+<p align="center">Instagram의 #멍스타그램 사진 랜덤으로 테스트한 결과 (192x192)</p>
 
 ## Android 실시간 구동
 
