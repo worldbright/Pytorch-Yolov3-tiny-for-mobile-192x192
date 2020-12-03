@@ -1,4 +1,4 @@
-# Pytorch-Yolov3-tiny-for-mobile-192x192-
+# Pytorch-Yolov3-tiny-for-mobile-192x192
 Pytorch dog face detection model (based on Yolov3)
 
 모바일에서 실시간으로 구동이 가능한 강아지 얼굴 인식 모델을 만들고자, 최근 공부하고 구현했던 내용 정리
