@@ -53,9 +53,9 @@ input image size에 맞춰 일부 레이어를 변형함에 따라, input tensor
 
 ### Test(eval)
 
-- bbox iou > 0.2 일 때, Non-maximum Suprresion을 수행하고, 가장 높은 object score을 가진 bndbox만 남김.
+- Output들 사이에서 iou > 0.2 일 때, Non-maximum Suprresion을 수행하고, 가장 높은 object score을 가진 bndbox만 남김.
 
-- bbox iou > 0.5 일 때, 정답으로 처리. (한 사진에 여러 개의 bndbox가 존재할 경우, 정확도에 1/n으로 정답 및 오답 수 기록)
+- Target Lable bndbox와 iou > 0.5 일 때, 정답으로 처리. (한 사진에 여러 개의 bndbox가 존재할 경우, 정확도에 1/n으로 정답 및 오답 수 기록)
 
 
 ### 여러가지 시도들
