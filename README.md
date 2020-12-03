@@ -60,7 +60,7 @@ input image size에 맞춰 일부 레이어를 변형함에 따라, input tensor
 
 ### 여러가지 시도들
 
-1. Yolov3-tiny의 pre-trained weight를, 구조가 똑같은 앞부분의 레이어에 일부 적용하면 대부분 10 ~ 20 Epoch 사이에서 최대 정확도 달성.
+1. Yolov3-tiny의 pre-trained weight를, 구조가 똑같은 앞부분의 레이어에 일부 적용하면 대부분 10 ~ 15 Epoch 에서 최대 정확도 달성. Scratch부터 학습 시에도 20 ~ 30 Epoch 에서 최대 정확도 달성, 하지만 pre-trained weight보단 정확도가 조금 낮음.
 
 2. RGB와 GRAY SCALE, 두가지 방식으로 모두 학습시켜 보았고, GRAY SCALE은 RGB보다 학습속도는 빠르지만, 정확도가 약간 낮음.
 
