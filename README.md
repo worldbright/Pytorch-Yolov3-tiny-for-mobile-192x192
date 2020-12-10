@@ -68,7 +68,7 @@ input image size에 맞춰 일부 레이어를 변형함에 따라, input tensor
 
 <p align="center"><img src="https://github.com/worldbright/Pytorch-Yolov3-tiny-for-mobile-192x192/blob/main/readme_assets/history_of_train.png"></p>
 
-<p align="center">gtx 1660을 혹사시키며 얻은 값진 "배움" 들</p>
+<p align="center">gtx 1660을 혹사시키며...</p>
 
 ### 결과
 
